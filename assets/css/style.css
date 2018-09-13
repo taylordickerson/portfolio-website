@@ -1,0 +1,25 @@
+* {
+  font-family: "Helvetica";
+  color: white;
+}
+
+body {
+  background-color: #b19cd9;
+}
+
+.site-nav {
+  display: flex;
+  padding: .5em;
+  background-color: #d9d09c;
+
+}
+
+ul {
+  margin: 12px;
+  padding: 4px;
+  list-style-type: none;
+}
+
+li {
+  padding: 15px;
+}
