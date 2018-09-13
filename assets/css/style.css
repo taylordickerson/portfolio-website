@@ -13,6 +13,10 @@ h1, div {
   color: white;
 }
 
+h1 {
+  padding-left: 50px;
+}
+
 .site-nav {
   display: flex;
   justify-content: space-evenly;
@@ -33,6 +37,23 @@ ul a {
   text-transform: uppercase;
 }
 
+li {
+  padding: .5rem;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
 .container {
   display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 50px;
+}
+
+.placeholder {
+
 }
