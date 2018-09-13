@@ -1,25 +1,38 @@
-* {
-  font-family: "Helvetica";
-  color: white;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+html {
+  font-size: 18px;
 }
 
 body {
-  background-color: #b19cd9;
+  background-color: #ffc0c6;
+}
+
+h1, div {
+  font-family: Roboto Mono;
+  color: white;
 }
 
 .site-nav {
   display: flex;
+  justify-content: space-evenly;
   padding: .5em;
-  background-color: #d9d09c;
-
+  background-color: #ffdac0;
+  font-family: Roboto Mono;
 }
 
 ul {
-  margin: 12px;
-  padding: 4px;
+  margin: 50px;
+  padding: 20px;
   list-style-type: none;
 }
 
-li {
-  padding: 15px;
+ul a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container {
+  display: grid;
 }
