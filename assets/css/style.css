@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+/* Typography and Colors */
+
 html {
   font-size: 18px;
 }
@@ -16,6 +18,8 @@ h1, div {
 h1 {
   padding-left: 50px;
 }
+
+/* Nav */
 
 .site-nav {
   display: flex;
@@ -41,11 +45,21 @@ li {
   padding: .5rem;
 }
 
-img {
+/* Image Styling */
+
+img.about-image {
   height: 100%;
   width: 100%;
   padding: 10px;
 }
+
+img.logo-wrap {
+  height: 100%;
+  width: 100%;
+  padding-right: 15px;
+}
+
+/* Content Styling with Grid */
 
 .container {
   display: grid;
@@ -54,6 +68,15 @@ img {
   grid-gap: 50px;
 }
 
-.placeholder {
+.education-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
 
+div.education-content, div.experience-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
