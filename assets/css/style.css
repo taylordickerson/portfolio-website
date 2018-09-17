@@ -89,6 +89,10 @@ img.logo-wrap-2 {
   grid-gap: 15px;
 }
 
+div.more-content-2 {
+  padding-bottom: 30px;
+}
+
 div.education-content, div.experience-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
