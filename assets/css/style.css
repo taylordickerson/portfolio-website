@@ -50,13 +50,20 @@ li {
 img.about-image {
   height: 100%;
   width: 100%;
+  min-width: 100%;
   padding: 10px;
 }
 
 img.logo-wrap {
   height: 100%;
   width: 100%;
+  min-width: 100%;
   padding-right: 15px;
+}
+
+img.logo-wrap-2 {
+  height: 200px;
+  width: 200px;
 }
 
 /* Content Styling with Grid */
@@ -73,6 +80,13 @@ img.logo-wrap {
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template: repeat(3, 1fr) / 100px 100px 100px;
+  justify-content: space-evenly;
+  grid-gap: 15px;
 }
 
 div.education-content, div.experience-content {
